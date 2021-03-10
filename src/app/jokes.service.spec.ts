@@ -31,15 +31,14 @@ describe('JokesService', () => {
       expect(jokes[0].id).toEqual(JOKES_MOCK[0].id);
     });
     const req = httpTestingController.expectOne(buildApiUrl(`/jokes/random/10`));
-    req.flush(JOKES_MOCK);
+    req.flush({ value: JOKES_MOCK });
   });
 
   it('should fetch one joke', () => {
     service.getRandomJoke().subscribe(joke => {
-      console.log(joke);
       expect(joke.id).toEqual(JOKES_MOCK[0].id);
     });
     const req = httpTestingController.expectOne(buildApiUrl(`/jokes/random/1`));
-    req.flush(JOKES_MOCK);
+    req.flush({ value: JOKES_MOCK });
   });
 });
