@@ -1,5 +1,8 @@
 # ChuckNorris
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/644ed0b0-6369-49cb-a486-faf18866461e/deploy-status)](https://app.netlify.com/sites/festive-austin-a50ca8/deploys)
+[![Test and deploy](https://github.com/salamaashoush/chuck-norris/workflows/Test%20and%20deploy/badge.svg)](https://github.com/salamaashoush/chuck-norris/actions)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
 
 ## Development server
