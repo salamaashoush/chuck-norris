@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "incremental": true,
+    "tsBuildInfoFile": "../dist/out-tsc/chuck-norris-e2e/.tsbuildinfo",
+    "sourceMap": false,
+    "outDir": "../dist/out-tsc/chuck-norris-e2e",
+    "allowJs": true,
+    "types": ["cypress", "node"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.js"]
+}
