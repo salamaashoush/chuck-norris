@@ -14,5 +14,5 @@ export class JokesListComponent {
 
   // ideally in large apps we should abstract this to a directive and a service
   public testIds: typeof JOKES_LIST_TEST_IDS = JOKES_LIST_TEST_IDS;
-  @Input() isFavouredJoke = () => false;
+  @Input() isFavouredJoke = (joke: IJoke) => false;
 }

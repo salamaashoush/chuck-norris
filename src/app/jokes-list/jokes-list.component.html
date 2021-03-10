@@ -33,7 +33,7 @@
     </button>
     <button
       class="absolute right-1 bottom-1 bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-      *ngIf="isFavouredJoke(joke.id)"
+      *ngIf="isFavouredJoke(joke)"
       (click)="removeFromFavourites.emit(joke)"
       title="Remove from favourites"
       [attr.data-testid]="testIds.removeFromFavourites(joke)"
