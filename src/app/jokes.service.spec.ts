@@ -10,7 +10,6 @@ describe('JokesService', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [JokesService],
       imports: [HttpClientTestingModule],
     });
     service = TestBed.inject(JokesService);
