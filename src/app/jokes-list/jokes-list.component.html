@@ -1,4 +1,7 @@
-<ul class="flex flex-col items-stretch justify-center space-y-4">
+<ul
+  class="flex flex-col items-stretch justify-center space-y-4"
+  [attr.data-testid]="testIds.jokesList"
+>
   <li
     class="w-full bg-white p-4 rounded-md tracking-wide shadow-lg relative"
     *ngFor="let joke of jokes"
