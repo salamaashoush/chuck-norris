@@ -6,7 +6,8 @@
     "sourceMap": false,
     "outDir": "../dist/out-tsc/chuck-norris-e2e",
     "allowJs": true,
-    "types": ["cypress", "node"]
+    "types": ["cypress", "node"],
+    "skipLibCheck": true
   },
   "include": ["src/**/*.ts", "src/**/*.js"]
 }
