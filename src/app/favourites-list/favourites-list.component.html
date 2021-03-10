@@ -1,4 +1,7 @@
-<ul class="flex flex-col justify-center items-center w-full divide-y divide-gray-400">
+<ul
+  class="flex flex-col justify-center items-center w-full divide-y divide-gray-400"
+  [attr.data-testid]="testIds.favouritesList"
+>
   <li
     *ngFor="let joke of favourites"
     class="flex justify-between items-center w-full py-2"
