@@ -37,7 +37,7 @@ interface IMockApiConfig {
 Cypress.Commands.add(
   'mockApi',
   ({ data = JOKES_MOCK, resource = '/jokes/random/10', alias = 'jokes' }: IMockApiConfig = {}) => {
-    const url = `http://api.icndb.com${resource}`;
+    const url = `https://api.icndb.com${resource}`;
     const method = 'GET';
     const response = { status: 'success', value: data };
     const key = `${alias}-${method}-${url}`;
