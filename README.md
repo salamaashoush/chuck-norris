@@ -4,6 +4,7 @@
 [![Test and deploy](https://github.com/salamaashoush/chuck-norris/workflows/Test%20and%20deploy/badge.svg)](https://github.com/salamaashoush/chuck-norris/actions)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
+[Live demo](https://festive-austin-a50ca8.netlify.app/)
 
 ## Development server
 
